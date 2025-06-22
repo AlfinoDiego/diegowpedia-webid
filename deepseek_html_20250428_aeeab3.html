@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diegow Hosting - Solusi Hosting Berkualitas</title>
+    <style>
+        :root {
+            --black: #1a1a1a;
+            --brown: #5d4037;
+            --cream: #f5e8d0;
+            --gold: #d4af37;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--cream);
+            color: var(--black);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: var(--black);
+            color: var(--cream);
+            padding: 30px 0;
+            text-align: center;
+            border-bottom: 5px solid var(--brown);
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+        
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .logo {
+            font-weight: bold;
+            color: var(--gold);
+        }
+        
+        .pricing-section {
+            margin: 40px 0;
+        }
+        
+        .section-title {
+            color: var(--brown);
+            border-bottom: 2px solid var(--brown);
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .pricing-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .pricing-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card-header {
+            background-color: var(--brown);
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        
+        .card-body {
+            padding: 20px;
+        }
+        
+        .price {
+            font-size: 2em;
+            font-weight: bold;
+            color: var(--black);
+            text-align: center;
+            margin: 15px 0;
+        }
+        
+        .price span {
+            font-size: 0.5em;
+            opacity: 0.8;
+        }
+        
+        .features {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .features li {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .features li:last-child {
+            border-bottom: none;
+        }
+        
+        .btn {
+            display: inline-block;
+            background-color: var(--black);
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: var(--brown);
+        }
+        
+        .btn-center {
+            display: block;
+            text-align: center;
+        }
+        
+        .contact {
+            background-color: var(--black);
+            color: var(--cream);
+            padding: 30px;
+            text-align: center;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        
+        .contact a {
+            color: var(--gold);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            background-color: var(--black);
+            color: var(--cream);
+        }
+        
+        @media (max-width: 600px) {
+            .pricing-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><span class="logo">DIEGOW</span> HOSTING</h1>
+            <p>Solusi Hosting Berkualitas dengan Harga Terjangkau</p>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section class="pricing-section">
+            <h2 class="section-title">DAILY RENTAL</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>3 Hari</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="price">5K <span>IDR</span></div>
+                        <ul class="features">
+                            <li>✓ Hosting stabil 3 hari</li>
+                            <li>✓ Support 24/7</li>
+                            <li>✓ Uptime 99.9%</li>
+                        </ul>
+                        <a href="https://wa.me/6281585498709" class="btn btn-center">Pesan Sekarang</a>
+                    </div>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>5 Hari</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="price">7K <span>IDR</span></div>
+                        <ul class="features">
+                            <li>✓ Hosting stabil 5 hari</li>
+                            <li>✓ Support 24/7</li>
+                            <li>✓ Uptime 99.9%</li>
+                            <li>✓ Ekstra fitur</li>
+                        </ul>
+                        <a href="https://wa.me/6281585498709" class="btn btn-center">Pesan Sekarang</a>
+                    </div>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>7 Hari</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="price">9K <span>IDR</span></div>
+                        <ul class="features">
+                            <li>✓ Hosting stabil 7 hari</li>
+                            <li>✓ Support 24/7</li>
+                            <li>✓ Uptime 99.9%</li>
+                            <li>✓ Ekstra fitur</li>
+                            <li>✓ Bonus resource</li>
+                        </ul>
+                        <a href="https://wa.me/6281585498709" class="btn btn-center">Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="pricing-section">
+            <h2 class="section-title">WEEKLY RENTAL</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>1.5 Minggu</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="price">12K <span>IDR</span></div>
+                        <ul class="features">
+                            <li>✓ Hosting stabil 1.5 minggu</li>
+                            <li>✓ Support 24/7</li>
+                            <li>✓ Uptime 99.9%</li>
+                        </ul>
+                        <a href="https://wa.me/6281585498709" class="btn btn-center">Pesan Sekarang</a>
+                    </div>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>2 Minggu</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="price">15K <span>IDR</span></div>
+                        <ul class="features">
+                            <li>✓ Hosting stabil 2 minggu</li>
+                            <li>✓ Support 24/7</li>
+                            <li>✓ Uptime 99.9%</li>
+                            <li>✓ Ekstra fitur</li>
+                        </ul>
+                        <a href="https://wa.me/6281585498709" class="btn btn-center">Pesan Sekarang</a>
+                    </div>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>2.5 Minggu</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="price">18K <span>IDR</span></div>
+                        <ul class="features">
+                            <li>✓ Hosting stabil 2.5 minggu</li>
+                            <li>✓ Support 24/7</li>
+                            <li>✓ Uptime 99.9%</li>
+                            <li>✓ Ekstra fitur</li>
+                            <li>✓ Bonus resource</li>
+                        </ul>
+                        <a href="https://wa.me/6281585498709" class="btn btn-center">Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="pricing-section">
+            <h2 class="section-title">OTHER OPTIONS</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>Menjadi Bot</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="price">Custom</div>
+                        <ul class="features">
+                            <li>✓ Transformasi ke bot</li>
+                            <li>✓ Fitur sesuai kebutuhan</li>
+                            <li>✓ Support teknis</li>
+                        </ul>
+                        <a href="https://wa.me/6281585498709" class="btn btn-center">Hubungi Kami</a>
+                    </div>
+                </div>
+                
+                <div class="pricing-card">
+                    <div class="card-header">
+                        <h3>Owner Bot</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="price">Custom</div>
+                        <ul class="features">
+                            <li>✓ Hak penuh atas bot</li>
+                            <li>✓ Run bot 24 jam</li>
+                            <li>✓ Full control</li>
+                            <li>✓ Support prioritas</li>
+                        </ul>
+                        <a href="https://wa.me/6281585498709" class="btn btn-center">Hubungi Kami</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="contact">
+            <h2>Siap Meningkatkan Bisnis Online Anda?</h2>
+            <p>Hubungi kami sekarang melalui WhatsApp untuk konsultasi gratis dan pemesanan:</p>
+            <p><a href="https://wa.me/6281585498709">+62 815-8549-8709</a></p>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Diegow Hosting. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
